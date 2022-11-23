@@ -5,7 +5,7 @@ dotenv.config()
 let port = process.env.PORT || 7800;
 let mongo=require('mongodb');
 let MongoClient=mongo.MongoClient;
-let mongoUrl=process.env.LiveMongo;
+let mongoUrl="mongodb+srv://test:12345@cluster0.8ubab2z.mongodb.net/?retryWrites=true&w=majority";
 let db;
 
 //Api for orders
